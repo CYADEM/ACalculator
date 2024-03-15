@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <h1>ACalculator</h1>
+        <div class="para">
+            <p>Thank you your using ACalculator.</p>
+            <p>You can find source code by <a href="https://github.com/CYADEM" target="_blank">clicking here</a>.</p>
+            <p>Web is not responsive, made only for Computers.</p>
+        </div>
+        <div class="social-links">
+            <a href="https://twitter.com/mmendieta_" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="https://github.com/CYADEM" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+        </div>
+        <div class="menus">
+            <div class="results">
+                <h1>Displaying latest 10 results.</h1>
+                <p>There are no results to be displayed yet.</p>
+                <div class="list"></div>
+            </div>
+            <section class="calc">
+                <div class="first-row">
+                    <input type="text" id="result" placeholder="Result" readonly>
+                    <button value="C" id="clearbtn" onclick="result.value=''"></button>
+                </div>
+                <div class="rows">
+                    <div class="second-row">
+                        <button value="1"></button>
+                        <button value="2"></button>
+                        <button value="3"></button>
+                        <button value="+"></button>
+                    </div>
+                    <div class="third-row">
+                        <button value="4"></button>
+                        <button value="5"></button>
+                        <button value="6"></button>
+                        <button value="-"></button>
+                    </div>
+                    <div class="fourth-row">
+                        <button value="7"></button>
+                        <button value="8"></button>
+                        <button value="9"></button>
+                        <button value="x"></button>
+                    </div>
+                    <div class="fifth-row">
+                        <button value="/"></button>
+                        <button value="0"></button>
+                        <button value="."></button>
+                        <button value="="></button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

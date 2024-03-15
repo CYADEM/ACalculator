@@ -1,0 +1,96 @@
+body {
+      height: 85vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(33,33,33);
+}
+
+.calculator {
+      color: white;
+      text-align: center;
+}
+
+.calculator h1:hover {
+      color: #F74F4D;
+}
+
+.calculator p {
+      margin: 0;
+      font-size: 20px;
+}
+
+.calculator a {
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #F74F4D;
+}
+
+.calculator a ion-icon {
+      margin-top: 20px;
+      margin-left: 20px;
+      font-size: 40px;
+}
+
+.menus {
+      margin-top: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.results h1 {
+      color: #F74F4D;
+}
+
+.calc {
+      margin-left: 100px;
+      border: 1px solid #F74F4D;
+      border-radius: 20px;
+      padding: 10px;
+}
+
+.first-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #F74F4D;
+}
+
+.first-row input {
+      font-size: 18px;
+      outline: none;
+      width: 200px;
+      padding: 10px;
+      border-radius: 20px;
+}
+
+.rows div {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+}
+
+button {
+      cursor: pointer;
+      border-radius: 30px;
+      margin: 0.2em;
+      width: 70px;
+      font-size: 20px;
+      padding: 15px;
+      border: none;
+}
+
+button:hover {
+      background-color: #F74F4D;
+}
+
+#clearbtn {
+      color: white;
+      width: 50px;
+      border-radius: 10px;
+      background-color: red;
+}
